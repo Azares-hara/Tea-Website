@@ -10,8 +10,8 @@
 :root {
    /*colors*/
    --white-color:#fff;
-   --dark-colr:#252525;
-   --primary-color:hsl(19, 54%, 18%);
+   --dark-color:#3a0f89;
+   --primary-color:hsl(6, 80%, 29%);
    --secondary-color:#dc9a43;
    --light-pink-color:#faf4f5;
    --medium-gray-color:#ccc;
@@ -151,7 +151,7 @@ header .navbar {
   font-family: "Montserrat", sans-serif
 }
 .hero-section .hero-details .title {
-  font-size:var(--font-size-l);
+  font-size:var(--font-size-1);
   color:var(--white-color);
   font-family: "Miniver", sans-serif;
 }
@@ -159,7 +159,7 @@ header .navbar {
   margin-top:8px;
   max-width:70%;
   font-size:var(--font-size-x1);
-  font-weight:var(--font-weight-semihold);
+  font-weight:var(--font-weight-semibold);
 }
 .hero-section .hero-details .description {
   max-width:70%;
@@ -228,7 +228,7 @@ transition: 0.3s ease;
 
 .about-section .social-link-list .social-link {
   color: var(--primary-color);
-  font-size: var(--font=size-1);
+  font-size: var(--font-size-1);
   transition: 0.2s ease;
 }
 
@@ -413,7 +413,7 @@ transition: 0.3s ease;
   justify-content: space-between;
 }
 .footer-section :where(.copyright-text, .social-link, .policy-link) {
-  color: var(--gray-color);
+  color: var(--medium-gray-color);
   transition: 0.2s ease;
 }
 
