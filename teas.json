@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Iced London Fog",
+    "description": "Tall glass with iced tea latte on a red coaster, garnished with a plant. Earl Grey tea blended with milk and vanilla.",
+    "rating": 2
+  },
+  {
+    "name": "Strawberry Matcha Latte",
+    "description": "Layers of strawberries, milk, and matcha, garnished with mint and fresh strawberry. A refreshing, fruity twist on matcha.",
+    "rating": 5
+  },
+  {
+    "name": "Cucumber Mint Green Iced Tea",
+    "description": "Green iced tea with cucumber slices and mint garnish. Crisp, cooling, and hydrating.",
+    "rating": 4
+  },
+  {
+    "name": "London Fog",
+    "description": "Foamy Earl Grey tea latte served in a clear mug with a red silicon mat and plant in background.",
+    "rating": 1
+  },
+  {
+    "name": "Green Tea and Honey-Rhubarb Punch",
+    "description": "Served in glasses on marble with sliced rhubarb, ginger, and mint leaves. Sweet, tangy, and lightly spiced.",
+    "rating": 3
+  },
+  {
+    "name": "Mezcal Hot Toddy",
+    "description": "Warm toddy with mezcal, orange slices, and spices. Comforting and smoky.",
+    "rating": 4
+  },
+  {
+    "name": "Strawberry Iced Tea",
+    "description": "Tall clear mug of strawberry iced tea with pitcher in background. Sweet and fruity.",
+    "rating": 1
+  },
+  {
+    "name": "Mint Julep Sweet Tea",
+    "description": "Glass of pink mint julep tea with mint and lemon garnish. Refreshing Southern classic.",
+    "rating": 3
+  },
+  {
+    "name": "Ginger-Turmeric Herbal Tea",
+    "description": "Two glass mugs with lemon slices, ginger, and turmeric. Anti-inflammatory and soothing.",
+    "rating": 132
+  },
+  {
+    "name": "Honey Lemon Tea",
+    "description": "Glass cup with spoon, sliced lemons on wooden board. Classic immune booster.",
+    "rating": 150
+  }
+]

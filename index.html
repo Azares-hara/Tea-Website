@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tea website</title>
+  <!--link font awesome for icons-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+  <!--link swiper CSS-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  
+
+</head>
+<body>
+  <header>
+    <nav class="navbar section-content">
+      <a href="#" class="nav-logo">
+       <img src="tea22.png" alt="Tea Logo" width="40" height="40">
+       <h2 class="logo-text">  Tea</h2>
+      </a>
+      <ul class="nav-menu">
+        <button id="menu-close-button" class="fas fa-times"></button>
+        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="#menu" class="nav-link">Menu</a></li>
+        <li class="nav-item"><a href="#reservations" class="nav-link">Reservations</a></li>
+        <li class="nav-item"><a href="#testimonials" class="nav-link">Testimonials</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button id="menu-open-button" class="fas fa-bars"></button>
+    </nav>
+  </header>
+  
+  <main>
+    <!--Hero section-->
+    <section class="hero-section">
+      <div  class="section-content">
+        <div class="hero-details">
+          <h2 class="title">Best Tea</h2>
+          <h3 class="subtitle">
+            Enjoy the best soothing liquid in the world that heals and rejuvenates you!
+          </h3>
+          <p class="description">Welcome to our Tea website paradise, where every plant tells its own origin of how it came to your cup.</p>
+          <div class="buttons">
+            <a href="#" class="button order-now">Order Now</a>
+            <a href="#" class="button contact-us">Contact Us</a>
+          </div>
+        </div>
+        <div class="hero-image-wrapper">
+          <img src="tea5.svg" alt="Tea spill" class="hero-image">
+        </div>
+      </div>
+    </section>
+
+    <!--About-->
+    <section class="about-section" id="about">
+      <div class="section-content">
+        <div class="about-image-wrapper">
+          <img src="teapeople.jpg" alt="About" class="about-image">
+        </div>
+        <div class="about-details">
+          <h2 class="section-title">About Us</h2>
+          <p>At the Tea House in Shillong, India, we pride ourselves at being the go-to destination for tea lovers and relief giver for outstanding look-outs of the wonderful city. We are a cozy resident aiming to provide the best relief medicine as nature's gift, tea! Brewed from various tea plants, concocted with excellent quality and taste-bud-enticing ingredients. Our customers can relax and unwind at this shelter in comfort.
+
+          </p>
+          <div class="social-link-list">
+           <a href="#" class="social-link">
+           <i class="fa-brands fa-facebook"></i>
+           </a>
+           <a href="#" class="social-link">
+           <i class="fa-brands fa-instagram"></i>
+           </a>
+           <a href="#" class="social-link">
+           <i class="fa-brands fa-twitter"></i>
+           </a>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!--Menu-->
+    <section class="menu-section" id="menu">
+      <h2 class="section-title">Our Menu</h2>
+      <div class="section-content">
+        <ul class="menu-list">
+          <li class="menu-item"> 
+            <img src="teas/strawberry_ice_tea.png" alt="Hot beverages" class="menu-image">
+            <h3 class="name">Strawberry Iced Tea</h3>
+            <p class="text"> Tall clear mug of strawberry iced tea.Sweet and fruity!</p>
+          </li>
+
+          <li class="menu-item"> 
+            <img src="teas/hot_toddy.png"  alt="Hot beverages" class="menu-image">
+            <h3 class="name">Hot Toddy</h3>
+            <p class="text">Warm toddy with orange slices, and spices. Comforting and smoky!</p>
+          </li>
+          <li class="menu-item"> 
+            <img src="teas/ginger_tea.png"  alt="Hot beverages" class="menu-image">
+            <h3 class="name">Ginger Tea</h3>
+            <p class="text">Fresh Ginger tea added with lemon, honey or optional spices for flavorful drinking.</p>
+          </li>
+          <li class="menu-item"> 
+            <img src="teas/matchalatte.png"  alt="Hot beverages" class="menu-image">
+            <h3 class="name">Strawberry Matcha Latte</h3>
+            <p class="text">Layers of strawberries, milk, and matcha, garnished with mint and fresh strawberry. A refreshing, fruity twist on matcha.</p>
+          </li>
+          <li class="menu-item"> 
+            <img src="teas/masala chai.png"  alt="Hot beverages" class="menu-image">
+            <h3 class="name">Masala Chai</h3>
+            <p class="text"> Classic Masala Chai with traditional spices, black tea, milk and sugar for a creamy, aromatic cup!</p>
+          </li>
+          <li class="menu-item"> 
+            <img src="teas/mint_tea.png"  alt="Hot beverages" class="menu-image">
+            <h3 class="name">Mint tea</h3>
+            <p class="text">Green iced tea with cucumber slices and mint garnish. Crisp, cooling, and hydrating!</p>
+          </li>
+          <li class="menu-item"> 
+            <img src="teas/lemon_tea.png"  alt="Hot beverages" class="menu-image">
+            <h3 class="name">Fresh Lemon tea</h3>
+            <p class="text"> A cup of lemon tea with sliced lemons. Classic immune booster!</p>
+          </li>
+          <li class="menu-item"> 
+            <img src="teas/hibiscus_tea.png"  alt="Hot beverages" class="menu-image">
+            <h3 class="name">Hibiscus tea</h3>
+            <p class="text"> Vibrant, caffeine-free herbal tea, hot, iced or spiced, made with dried hibiscus flowers and water.</p>
+          </li>
+          <li class="menu-item"> 
+            <img src="teas/rhubarbtea2.png"  alt="Hot beverages" class="menu-image">
+            <h3 class="name">Rhubarb Tea</h3>
+            <p class="text"> Served in glasses with sliced rhubarb, ginger, and mint leaves. Sweet, tangy, and lightly spiced!</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- Bookings -->
+    <section class="booking-section" id="reservations">
+      <div class="section-content">
+        <h2 class="section-title">Reserve a Table</h2>
+        <p class="booking-subtitle">Pick a time to experience our premium loose-leaf collections in person.</p>
+
+        <div class="booking-wrapper">
+          <form id="booking-form">
+            <div class="form-group">
+              <label for="customer-name">Your Name:</label>
+              <input type="text" id="customer-name" class="form-input" required placeholder="e.g., Jane Doe">
+            </div>
+
+            <div class="form-group">
+              <label for="booking-date">Date:</label>
+              <input type="date" id="booking-date" class="form-input" required>
+            </div>
+
+            <div class="form-group">
+              <label for="booking-time">Time:</label>
+              <input type="time" id="booking-time" class="form-input" required>
+            </div>
+
+            <div class="form-group">
+              <label for="party-size">Number of Guests:</label>
+              <select id="party-size" class="form-input" required>
+                <option value="1">1 Person</option>
+                <option value="2" selected>2 People</option>
+                <option value="4">4 People</option>
+                <option value="6">6+ People (Event)</option>
+              </select>
+            </div>
+
+            <button type="submit" id="submit-btn" class="button">Confirm Reservation</button>
+            <p id="booking-message" class="booking-message"></p>
+          </form>
+
+          <div class="live-dashboard">
+            <h3 class="dashboard-title">Upcoming Bookings</h3>
+            <ul id="reservations-list" class="reservations-list">
+              <li class="reservation-empty">No reservations yet — be the first!</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+  
+    <!--testimonials-->
+    <section class="testimonials-section" id="testimonials">
+      <h2 class="section-title">Testimonials</h2>
+        <div class="section-content">
+          <div class="slider-container swiper">
+            <div class="slider-wrapper">
+              <ul class="testimonials-list swiper-wrapper">
+                <li class="testimonial swiper-slide">
+                  <img src="people/p7.jpg" alt="User" class="user-image">
+                  <h3 class="name">Bianca</h3>
+                  <i class="feedback">Loved the place, got a pleasant view of the city with a refreshing beverage</i>
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img src="people/p9.jpg" alt="User" class="user-image">
+                  <h3 class="name">Rajesh</h3>
+                  <i class="feedback">Nice and cozy little area in Shillong, I had a fun time with my friends.</i>
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img src="people/p2.jpg" alt="User" class="user-image">
+                  <h3 class="name">Matt</h3>
+                  <i class="feedback">A good break from my studies, I come here almost every day</i>
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img src="people/p3.jpg" alt="User" class="user-image">
+                  <h3 class="name">Sasha</h3>
+                  <i class="feedback">The people here are really hospitable, I had a wonderful tea time with the owners too!</i>
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img src="people/p4.jpg" alt="User" class="user-image">
+                  <h3 class="name">Lukas</h3>
+                  <i class="feedback">Everday traffic can really drain you, so glad this little place exist, I feel rejuvenated by their drinks during evenings.</i>
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img src="people/p5.jpg" alt="User" class="user-image">
+                  <h3 class="name">Edmon</h3>
+                  <i class="feedback">Have been a long-time customer, could never get used anywhere else.</i>
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img src="people/p8.jpg" alt="User" class="user-image">
+                  <h3 class="name">Ila</h3>
+                  <i class="feedback">They serve the best drinks to lighten up the mood, me and my friends, we hang out here very often.</i>
+                </li>
+              </ul>
+              <div class="swiper-pagination"></div>
+              <div class="swiper-slide-button swiper-button-prev"></div>
+              <div class="swiper-slide-button swiper-button-next"></div>
+            </div>
+          </div>
+        </div>
+    </section>
+   
+    <!--contact section-->
+    <section class="contact-section" id="contact">
+      <h2 class="section-title">Contact Us</h2>
+      <div class="section-content">
+        <ul class="contact-info-list">
+          <li class="contact-info">
+            <i class="fa-solid fa-location-crosshairs"></i>
+            <p>Tea Cafe, Laitumkhrah, Shillong</p>
+          </li>
+          <li class="contact-info">
+            <i class="fa-regular fa-envelope"></i>
+            <p>info@teacafewebsite.com</p>
+          </li>
+          <li class="contact-info">
+            <i class="fa-solid fa-phone"></i>
+            <p>(91) 63524821843</p>
+          </li>
+          <li class="contact-info">
+            <i class="fa-regular fa-clock"></i>
+            <p>Monday to Friday:  9:00 AM - 5: 00 PM</p>
+          </li>
+          <li class="contact-info">
+            <i class="fa-solid fa-globe"></i>
+            <p>www.tealoversshillong.com</p>
+          </li>
+        </ul>
+
+        <form action="#" class="contact-form">
+          <input type="text" placeholder="Your name" class="form-input"required>
+          <input type="email" placeholder="Your email" class="form-input" required>
+          <textarea placeholder="Your message" class="form-input" required></textarea>
+          <button class="submit-button">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer-section">
+      <div class="section-content">
+        <p class="copyright-text">0 2026 Tea Shop</p>
+
+        <div class="social-link-list">
+           <a href="#" class="social-link">
+           <i class="fa-brands fa-facebook"></i>
+           </a>
+           <a href="#" class="social-link">
+           <i class="fa-brands fa-instagram"></i>
+           </a>
+           <a href="#" class="social-link">
+           <i class="fa-brands fa-twitter"></i>
+           </a>
+          </div>
+
+          <p class="policy-text">
+            <a href="#" class="policy-link">Privacy policy</a>
+            <span class="separator">.</span>
+            <a href="#" class="policy-link">Refund policy</a>
+          </p>
+      </div>
+    
+    </footer>
+    
+  </main>
+ <!--linking swiper script-->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+
+  </script>
+</body>
+</html>
