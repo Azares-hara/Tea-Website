@@ -20,14 +20,13 @@ const swiper = new Swiper('.slider-wrapper', {
   grabCursor: true,
   spaceBetween: 25,
 
-  // If we need pagination
   pagination: {
     el: '.swiper-pagination',
     clickable: true,
     dynamicBullets: true,
   },
 
-  // Navigation arrows
+  //Navigation arrows
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
@@ -54,7 +53,7 @@ const bookingMessage = document.querySelector("#booking-message");
 const reservationsList = document.querySelector("#reservations-list");
 const dateInput = document.querySelector("#booking-date");
 
-// Prevent booking dates in the past
+//Prevent booking dates in the past
 dateInput.min = new Date().toISOString().split("T")[0];
 
 // Display bookings from the API
@@ -80,7 +79,7 @@ async function loadReservations() {
   }
 }
 
-// Submit a new booking
+//Submit new booking
 bookingForm.addEventListener("submit", async (e) => {
   e.preventDefault();
   submitBtn.disabled = true;
