@@ -4,8 +4,8 @@ A tea website for the Tea Cafe in Shillong
 
 ## Running Locally
 1. Clone or download this repository
-2. Open `index.html` in any modern browser — no build step or server needed
-3. (Optional) Using VS Code's Live Server extension for auto-reload during edits
+2. Open `index.html` in any modern browser: no build step or server needed
+3. Or - Using VS Code's Live Server extension for auto-reload during edits
 
 ## Responsive Breakpoints
 - **≥1024px** — full desktop layout, 3-column menu grid
